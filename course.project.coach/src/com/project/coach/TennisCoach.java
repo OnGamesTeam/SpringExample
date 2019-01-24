@@ -17,4 +17,12 @@ public class TennisCoach implements Coach{
     public String getDailyFortune() {
         return this.fortuneService.getFortune();
     }
+
+    public void coachInitMethod(){
+        System.out.println("It's running the init-method");
+    }
+
+    public void  coachDestroyMethod(){
+        System.out.println("It's running the destroy-method");
+    }
 }
