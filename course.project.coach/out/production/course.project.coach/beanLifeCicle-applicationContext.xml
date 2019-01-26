@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+	<!-- Property file -->
+
+    <context:property-placeholder location="sport.properties"/>
+
+
+    <!-- Define your beans here -->
+
+    <bean id = "myFortuneService"
+          class = "com.project.coach.HappyFortuneService"
+    >
+    </bean>
+
+    <!-- Sono stati aggiunti l'init-method e il destroy method. Il primo viene richiamato al momento dell'inizializzazione
+         dei bean; il secondo al momento della distruzione degli stessi
+         N.B. i destroy-method non vengono eseguiti per i bean con scope "prototype" poiché Spring non gestisce tutto
+         il ciclo di vita di questi bean = deve essere il client di tali bean a distruggerli -->
+
+    <bean id = "myCoach"
+         class = "com.project.coach.TennisCoach"
+          init-method="coachInitMethod"
+          destroy-method="coachDestroyMethod"
+    >
+       <constructor-arg ref="myFortuneService"/>
+    </bean>
+
+
+
+</beans>
+
+
+
+
+
