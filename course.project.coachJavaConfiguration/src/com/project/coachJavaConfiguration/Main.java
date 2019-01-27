@@ -14,6 +14,10 @@ public class Main {
 
         System.out.println(myCoach.getDailyFortune());
 
+        System.out.println(myCoach.getCoachName());
+
+        System.out.println(myCoach.getCoachEmail());
+
         context.close();
     }
 }
