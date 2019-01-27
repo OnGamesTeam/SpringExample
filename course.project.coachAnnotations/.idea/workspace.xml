@@ -2,11 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79292714-cb4f-4a66-bc5e-55204422f897" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_annotation_api_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation-api-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/course.project.coachJavaConfiguration.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/lib/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/lib/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/lib/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/lib/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/lib/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course.project.coachJavaConfiguration/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course.project.coachAnnotations.iml" beforeDir="false" afterPath="$PROJECT_DIR$/course.project.coachAnnotations.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/project/coachAnnotations/FileFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/coachAnnotations/FileFortuneService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project/coachAnnotations/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project/coachAnnotations/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/project/coachAnnotations/FileFortuneService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="225">
               <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -33,11 +54,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/project/coachAnnotations/TennisCoach.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="240">
               <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#632#648#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,11 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/project/coachAnnotations/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -58,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/project/coachAnnotations/BasketballCoach.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="375">
               <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -114,15 +131,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="course.project.coachAnnotations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course.project.coachAnnotations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course.project.coachAnnotations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course.project.coachAnnotations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course.project.coachAnnotations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course.project.coachAnnotations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="coachAnnotations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course.project.coachAnnotations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="course.project.coachAnnotations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548588422620" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548592133179" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/javax.annotation-api-1.2.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -182,7 +229,11 @@
       <option name="presentableId" value="Default" />
       <updated>1548509784896</updated>
       <workItem from="1548509786170" duration="13122000" />
-      <workItem from="1548581400204" duration="5142000" />
+      <workItem from="1548581400204" duration="5207000" />
+      <workItem from="1548589775998" duration="25000" />
+      <workItem from="1548590632152" duration="85000" />
+      <workItem from="1548590736477" duration="229000" />
+      <workItem from="1548591345543" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="setup new project">
       <created>1548509950343</created>
@@ -198,16 +249,24 @@
       <option name="project" value="LOCAL" />
       <updated>1548583206832</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Close Project">
+      <created>1548588452888</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548588452888</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18264000" />
+    <option name="totallyTimeSpent" value="18692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26342005" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -216,7 +275,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32829374" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32829374" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -245,7 +304,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup new project" />
     <MESSAGE value="Inseriti esercizi su Spring con Annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inseriti esercizi su Spring con Annotations" />
+    <MESSAGE value="Close Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Close Project" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/project/coachAnnotations/HappyFortuneService.java">
@@ -307,9 +367,10 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/project/coachAnnotations/Config.java" />
     <entry file="file://$PROJECT_DIR$/src/com/project/coachAnnotations/FileFortuneService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="225">
           <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -319,29 +380,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/project/coachAnnotations/TennisCoach.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="240">
           <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#632#648#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/project/coachAnnotations/BasketballCoach.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="375">
           <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/project/coachAnnotations/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -350,11 +400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/project/coachAnnotations/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
