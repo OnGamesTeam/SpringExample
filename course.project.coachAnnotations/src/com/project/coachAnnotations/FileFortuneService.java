@@ -1,9 +1,9 @@
 package com.project.coachAnnotations;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -21,6 +21,7 @@ public class FileFortuneService implements FortuneService {
     public FileFortuneService(){}
 
 
+    @PostConstruct // viene eseguito dopo il costruttore e dependecy injection
     public boolean loadFortunes() throws IOException{
         if(this.frasi == null) {
             String text = "";
@@ -39,15 +40,7 @@ public class FileFortuneService implements FortuneService {
     }
     @Override
     public String getFortune(){
-        try {
-            if(this.loadFortunes());
-            {
-                Random rand = new Random();
-                return this.frasi[rand.nextInt(frasi.length)];
-            }
-        }
-        catch (IOException e){
-            return "Errore";
-        }
+        Random rand = new Random();
+        return this.frasi[rand.nextInt(frasi.length)];
     }
 }
