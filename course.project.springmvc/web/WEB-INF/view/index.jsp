@@ -14,6 +14,6 @@
 <h1> Benvenuto!!!</h1>
 <hr>
 <h2>Clicca sul link per compilare il form!</h2>
-<a href="showForm">Link form</a>
+<a href="home/showForm">Link form</a>
 </body>
 </html>

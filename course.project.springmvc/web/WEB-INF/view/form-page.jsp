@@ -11,7 +11,14 @@
     <title>Form Page</title>
 </head>
 <body>
+      <h2> Vecchia funzione :(</h2>
       <form action="processForm" method="GET">
+          <input type="text" name="studentname" placeholder="Inserisci il tuo nome"/>
+          <input type="submit"/>
+      </form>
+      <br>
+      <h2> Nuova funzione!</h2>
+      <form action="processForm3" method="GET">
           <input type="text" name="studentname" placeholder="Inserisci il tuo nome"/>
           <input type="submit"/>
       </form>
