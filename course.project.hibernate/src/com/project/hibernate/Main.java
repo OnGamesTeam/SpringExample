@@ -24,9 +24,9 @@ public class Main {
          *
          * The main function of the Session is to offer create, read and delete operations for instances of mapped entity classes. Instances may exist in one of three states:
          *
-         * transient: never persistent, not associated with any Session
-         * persistent: associated with a unique Session
-         * detached: previously persistent, not associated with any Session
+         * transient: never persistent, not associated with any Session --> nuova istanza di una classe persistente che: non è associata ad alcuna sessione, non ha una rappresentazione nel database e non ha un identificativo.
+         * persistent: associated with a unique Session --> istanza di una classe persistente che: è associata ad una sessione, ha una rappresentazione nel database e ha un identificativo.
+         * detached: previously persistent, not associated with any Session --> istanza di una classe persistente che era associata ad una sessione ma non lo è più.
          *
          * Transient instances may be made persistent by calling save(), persist() or saveOrUpdate(). Persistent instances may be made transie
          */
@@ -42,11 +42,29 @@ public class Main {
 
         try{
 
-            Student myStudent = new Student("Fabrizio", "D'Ascenzo", "bigfabbro93@gmail.com");
+            // carico un nuovo studente sul database
+            Student myStudent1 = new Student("Fabrizio", "D'Ascenzo", "bigfabbro93@gmail.com");
+            Student myStudent2 = new Student("Vittoria", "Di Filippo", "vittdf@gmail.com");
+            Student myStudent3 = new Student("Andrea", "Cerimoniale", "miamiheat97@gmail.com");
 
             session.beginTransaction();
 
-            session.save(myStudent);
+            session.save(myStudent1);
+            session.save(myStudent2);
+            session.save(myStudent3);
+
+
+            session.getTransaction().commit();
+
+            // ottengo uno studente dal database
+
+            session = factory.getCurrentSession();
+
+            session.beginTransaction();
+
+            Student myNewStudent = session.get(Student.class, myStudent1.getId());
+
+            System.out.println(myNewStudent);
 
             session.getTransaction().commit();
         }
