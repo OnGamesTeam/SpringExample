@@ -4,6 +4,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -62,9 +64,13 @@ public class Main {
 
             session.beginTransaction();
 
-            Student myNewStudent = session.get(Student.class, myStudent1.getId());
+            //Student myNewStudent = session.get(Student.class, myStudent1.getId());
 
-            System.out.println(myNewStudent);
+            List<Student> Students = session.createQuery("from Student s where s.lastName='Cerimoniale' OR s.firstName='Fabrizio' ").list();
+
+            for (Student st : Students) {
+                System.out.println(st);
+            }
 
             session.getTransaction().commit();
         }
